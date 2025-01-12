@@ -87,9 +87,9 @@ commit;
 
 Step 0: Open Eclipse Enterprise Edition. [Install, if not already installed.]
 
-Step 1: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/shashirajraja/onlinebookstore.git```> Select master Branch > Next > Next > Finish.
+Step 1: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```git@github.com:Tejamurali/Online-Books-Store.git```> Select master Branch > Next > Next > Finish.
 
-Step 2. a: Go inside ```src/main/resources > application.properties``` and update the value of database details as per your usage, like db.driver, db.host, db.username and db.password according to your installed mysql/postgresql admin user credentials.
+Step 2.a: Go inside ```src/main/resources > application.properties``` and update the value of database details as per your usage, like db.driver, db.host, db.username and db.password according to your installed mysql/postgresql admin user credentials.
 
 Step 2.b: Right Click on Project > Run as > Maven Build > In the goals field enter "clean install" > apply > run
 
