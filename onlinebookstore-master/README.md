@@ -1,7 +1,5 @@
-# <a href="https://youtu.be/mLFPodZO8Iw" target="_blank"> OnlineBookStore </a> 
+# <a href="#" target="_blank"> OnlineBookStore </a> 
 - A Java Web Developement Project
-- **Youtube VIDEO** for step by step Local Setup Guide : https://youtu.be/mLFPodZO8Iw
-- **Youtube VIDEO** for local setup of tender management project: https://www.youtube.com/watch?v=7CE3aY4e644
 <!--Check out the Live website demo: [https://theonlinebookstore.herokuapp.com](https://theonlinebookstore.herokuapp.com)-->
 - User Login Credentials: (Teja/Teja)
 - Admin Login Credentials: (Admin/Admin)
@@ -40,7 +38,6 @@ A user-friendly Online Bookstore project in which users can log in or register, 
 1. Front-End Development:
 - HTML
 - CSS
-- Javascript
 - BootStrap
 
 2. Back-End Development:
@@ -51,22 +48,11 @@ A user-friendly Online Bookstore project in which users can log in or register, 
 3. Database:
 - MySql
 
-### ================ Software And Tools Required ================
-- : Git [https://www.youtube.com/watch?v=gv7VPQ4LZ7g]
-- : Java JDK 8+ [https://www.youtube.com/watch?v=O9PWH9SeTTE]
-- : Eclipse EE (Enterprise Edition) [https://www.youtube.com/watch?v=8aDsEV7txXE]
-- : Apache Maven [https://www.youtube.com/watch?v=jd2zx3dLjuw]
-- : Tomcat v8.0+ [https://youtu.be/mLFPodZO8Iw?t=903]
-- : MySQL Server [https://www.youtube.com/watch?v=Ydh5jYA6Frs]
-- : MySQL Workbench (optional) [https://www.youtube.com/watch?v=t79oCeTXHwg]
+### ================= Database Initialization =================
 
-### ================= Dummy Database Initialization =================
+STEP 1: MySQL Workbench
 
-STEP 1: Open MySQL Command Prompt or MySQL Workbench
-
-STEP 2: Login to the administrator user as : ```mysql -u <username> -p``` (Enter Password if asked)
-
-STEP 3: Copy paste the following MySql Commands-
+STEP 2: Copy paste the following MySql Commands-
 ```MySQL
 create database if not exists onlinebookstore;
 
@@ -91,7 +77,7 @@ insert into books values('9780132778046','Effective Java','Joshua Bloch',368,21)
 insert into books values('9781484255995','Practical Rust Projects','Shing Lyu',257,15);
 insert into users values('demo','demo','Demo','User','Demo Home','42502216225','demo@gmail.com',2);
 insert into users values('Admin','Admin','Mr.','Admin','Haldia WB','9584552224521','admin@gmail.com',1);
-insert into users values('shashi','shashi','Shashi','Raj','Bihar','1236547089','shashi@gmail.com',2);
+insert into users values('Teja','Teja','Teja','Murali','AndhraPradesh','9346093863','tejamurali6478@gmail.com',2);
 
 commit;
 
@@ -119,25 +105,11 @@ Step 6: Check Running The Site At  <a href="http://localhost:8083/onlinebookstor
 
 Step 7: Default Username And Password For Admin Is "Admin" And "Admin"
 
-Step 8: The default Username And Password For User Is "shashi" And "shashi"
+Step 8: The default Username And Password For User Is "Teja" And "Teja"
 
-## FAQ
-**Question:1** Unable to Connect to Database?
-
-**Answer:** Please check you have installed the mysql correctly and have updated the correct db details in application.properties file. Also you can try doing maven clean install and force update the project and restart.
-<hr>
-
-Note:- Considering this as a Sample Project, we have not much considered of web security.
-#### Some Screenshots for the project:
-<img width="941" alt="image" src="https://user-images.githubusercontent.com/34605595/224769637-37c34d4b-26e7-4d49-b990-4c09b260ec31.png">
-<img width="954" alt="image" src="https://user-images.githubusercontent.com/34605595/224769990-f440f74d-41b2-4629-ba1c-a87267f225d9.png">
-<img width="930" alt="image" src="https://user-images.githubusercontent.com/34605595/224770145-5902054f-5943-44ac-b02f-92097c8a6972.png">
-<img width="934" alt="image" src="https://user-images.githubusercontent.com/34605595/224770257-e18a3810-0457-4b78-bf46-cf82746708ee.png">
-<img width="946" alt="image" src="https://user-images.githubusercontent.com/34605595/224770392-5a5478d2-98cc-44ee-8689-132b6b16af80.png">
 
 
 #### "Suggestions and project improvement ideas are welcomed!"
 
 <bold>Thanks a lot,</bold><br/>
-                                                                                                        Project Leader<br/>
-                                                                                                         <b>Shashi Raj</b>
+                                                                                                        
